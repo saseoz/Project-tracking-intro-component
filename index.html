@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>    
+  <div class="bg"></div>
+
+  <div class="container">
+    
+    <div class="modal-menu hidden">
+      <ul class="nav__list-wrap nav__list-wrap--modal">
+        <li><a href="/">Product</a></li>
+        <li><a href="/">Features</a></li>
+        <li><a href="/">Pricing</a></li>
+        <hr>
+        <li><a href="/" class="list-login">Login</a></li>
+      </ul>
+    </div>
+
+    <nav class="nav-container flex">
+      <div class=""><img src="images/logo.svg" alt="logo"></div>
+      <button class="nav__btn">
+        <img src="images/icon-hamburger.svg" alt="">
+        <img src="images/icon-close.svg" class="hidden" alt="">
+      </button>
+      <ul class="nav__list-wrap hidden">
+        <li><a href="/">Product</a></li>
+        <li><a href="/">Features</a></li>
+        <li><a href="/">Pricing</a></li>
+        <li class="dot">•</li>
+        <li><a href="/" class="list-login">Login</a></li>
+      </ul>
+    </nav> 
+
+    <main class="main-container">
+      <div class="main__img-wrap">
+        <img src="images/illustration-devices.svg" alt="a phone and a laptop illustration">
+      </div>
+      <div class="main__content-wrap">
+        <div class="main__header-stack flex">
+          <div class="main__header-new">
+            <p>new</p>
+          </div>
+          <p class="main__header-dash">Monograph Dashboard</p>
+        </div>
+        <h1 class="main__title">Powerful insights <br> into your team</h1>
+        <p class="main__descr">Project planning and time tracking <br> for agile teams</p>
+        <div class="main__footer-stack flex">
+          <button class="main__footer-btn">
+            Schedule a demo
+          </button>
+          <p class="main__footer-preview">to see a preview</p>
+        </div>
+      </div>
+    </main>
+  </div>
+    
+  <script src="script.js"></script>
+</body>
+</html>
